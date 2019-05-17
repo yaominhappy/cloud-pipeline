@@ -420,6 +420,10 @@ public final class MessageConstants {
             "error.datastorage.azure.invalid.account.key";
     public static final String ERROR_DATASTORAGE_AZURE_CREATE_FILE = "error.datastorage.azure.create.file";
 
+    //Cluster usage monitoring
+    public static final String ERROR_CLUSTER_MONITORING_NEGATIVE_INTERVAL =
+            "error.cluster.monitoring.negative.interval";
+
     private MessageConstants() {
         // no-op
     }
